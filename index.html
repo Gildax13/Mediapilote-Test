@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<!-- Réalisé par PEAN Adrien -->
+<head>
+    <title>Landing Page</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+
+<body>
+    <div class="header">
+    <div class="logo-container">
+        <img src="images/LOGO_SAFE_ON.svg" alt="Logo Safe On Rouge et noir" id="logoSafeOn">
+        <span id="by">by </span>
+        <img src="images/LOGO_FLEX_ON_BLANC.svg" alt="Logo FlexOn noir" id="logoFlexOn">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#banner" class="btnnav">INNOVATION</a></li>
+            |
+            <li><a href="#banner" class="btnnav">NOS REVENDEURS</a></li>
+            <li><a href="#NewsSafeOn" id="btnpromo">OFFRE PROMO</a></li>
+        </ul>
+    </nav>
+</div>
+    <section id="firstSection">
+        <h1 id="titleFirstSection">SAFE-ON is beautiful</h1>
+        <p id="textFirstSection">Découvrez le nouvel étrier qui vous propose tout les avantages Flex-on avec une
+            innovation sécurité en plus</p>
+        <div id="cardFirstSection">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/video.jpg" alt="Image exemple de video">
+                </div>
+                <div class="card-form">
+                    <form>
+                        <h2 id="titreFormCard">Offre promotionnelle</h2>
+                        <h2>1 personnalisation offerte *</h2>
+                        <div class="form-row">
+                            <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+                            <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
+                        </div>
+                        <div class="form-row-double">
+                            <input type="text" id="address" name="address" placeholder="Adresse" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" id="zipcode" name="zipcode" placeholder="Code Postal" required>
+                            <input type="text" id="city" name="city" placeholder="Ville" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="tel" id="phone" name="phone" placeholder="Numéro de téléphone" required>
+                        </div>
+                        <div class="form-row checkbox-row">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent" id="consent">En soumettant ce formulaire, j’accepte que les informations saisies
+                                dans ce formulaire soient utilisées, exploitées et traitées pour permettre de me
+                                recontacter, dans le cadre de cette opération.</label>
+                        </div>
+                        <button type="submit">Bénéficiez de l'offre promotionnelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="banner">
+            <div class="logobanner">
+                <img src="images/LOGO_SAFE_ON_BLC.svg" alt="Logo">
+            </div>
+            <div class="text">
+                <p>Profitez de notre <br>offre promotionnelle</p>
+                
+            </div>
+    </section>  
+    </div>
+    <section id="revendeur" class="dual-section">
+        <div class="section-item">
+            <img src="images/ETRIER_SAFE_ON_2019_COULEUR_V2.jpg" alt="Image des Etriers" class="logoDualSection">
+            <h2 class="titleDualSection">Votre personnalisation offerte*
+                du XX au XX octobre!</h2>
+            <p class="pBanner">Téléchargez vite votre bon pour profiter
+                de notre offre commerciale découverte.</p>
+            <button class="btnDualSection">Je télécharge</button>
+        </div>
+        <div class="section-item">
+            <img src="images/revendeur.jpg" alt="Logo Flexon sur fond de carte du monde" class="logoDualSection">
+            <h2 class="titleDualSection">Trouvez
+                un revendeur</h2>
+            <p class="pBanner">Trouvez votre sellier et les produits Safe-On
+                les plus proches de vous</p>
+            <button id="btnSellier" class="btnDualSection">Je trouve mon sellier</button>
+        </div>
+    </section>
+    <section id="NewsSafeOn">
+        <div class="image-containerNewsSafeOn">
+            <img src="images/VISUEL_SAFE_ON.png" alt="Image Safe-On">
+            <div class="logoNewsSafeOn">
+                <img src="images/prix.png" alt="Image avec prix" id="prixLogo">
+            </div>
+        </div>
+        <div class="textNewsSafeOn">
+            <img id="hexa" src="images/FOND_HEXAGONES.png" alt="Hexagones de fond">
+            <table>
+                <tr>
+                    <td><img id="logoSafe" src="images/LOGO_SAFE_ON.svg" alt="Logo Safe-On"></td>
+                    <td><img id="nouveau" src="images/nouveau.jpg" alt="Nouveau"></td>
+                </tr>
+            </table>
+            <p class="titreListe">Design</p>
+            <p>Sobre et élégant</p>
+            <p class="titreListe"><span class="plus">+</span> Confortable</p>
+            <p>Avec son système d’absorption des chocs.</p>
+            <p class="titreListe"><span class="plus">+</span> Personnalisable</p>
+            <p>Couleur du cadre, choix du plateau,<br>Couleur des élastomères aimantés.</p>
+            <p class="titreListe"><span class="plus">+</span> Safe</p>
+            <p>Grâce à sa nouvelle branche souple élastomère escamotable.</p>
+        </div>
+    </section>
+    <section id="SectionForm">
+        
+        <div id="ContactForm">
+            <p id="titreListe"> OFFRE PROMOTIONNELLE </p>
+            <p id="textListe">1 PERSONNALISATION OFFERTE *</p>
+            <form id="formEnd">
+                <div class="form-group half-width">
+                    <input type="text" id="nom" name="nom" placeholder="Nom">
+                </div>
+                <div class="form-group half-width">
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                </div>
+                <div class="form-group full-width">
+                    <input type="text" id="magasin" name="magasin" placeholder="Magasin">
+                </div>
+                <div class="form-group full-width">
+                    <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+                </div>
+                <div class="form-group half-width">
+                    <input type="text" id="codepostal" name="codepostal" placeholder="Code Postal">
+                </div>
+                <div class="form-group half-width">
+                    <input type="text" id="ville" name="ville" placeholder="Ville">
+                </div>
+                <div class="form-group half-width">
+                    <input type="email" id="mail" name="mail" placeholder="Mail">
+                </div>
+                <div class="form-group half-width">
+                    <input type="tel" id="telephone" name="telephone" placeholder="Téléphone">
+                </div>
+                <div class="form-group full-width">
+                    <input type="number" id="quantite" name="quantite" placeholder="Quantité">
+                </div>
+                <div class=" checkbox-group full-width">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms" class="terms">En soumettant ce formulaire, j’accepte que les informations saisies dans ce formulaire soient utilisées, exploitées et traitées pour 
+                        permettre de me recontacter, dans le cadre de cette opération</label>
+                </div>
+                <div class="full-width terms"> * 1 paire de stickers Flex-on édition limitée</div>
+                <div class="form-group center full-width">
+                    <button type="submit" id="submitbutton"> Bénéficiez de l’offre promotionnelle</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-section">
+            <img src="images/LOGO_FLEX_ON_BLANC.svg" alt="Logo">
+        </div>
+        <div class="footer-section">
+            <h4>Office</h4>
+            <p>commercial@flex-on.fr</p>
+            <p>0559904618</p>
+            <br>
+            <p>ZA Gaston Phoebus </p>
+            <p>9 Chemin de brousse </p>
+            <p>64160 Morlaàs</p>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Manon : 07 86 01 89 37 </p>
+            <p>france@flex-on.fr </p>
+        </div>
+        <div class="footer-section">
+            <h4>Connect</h4>
+            <p id="lien">FLEX-ON.FR</p>
+            <hr ALIGN="left" id="petiteLigne">
+            <p><span id="support">Support us :</span> <span><img class="picto" src="images/PICTO_FB.svg" alt=""></span><span><img class="picto" src="images/PICTO_INSTA.svg" alt=""></span><span><img class="picto" src="images/PICTO_YOUTUBE.svg" alt=""></span></p>
+            <!-- Ajoutez vos liens de réseaux sociaux ici -->
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus libero ad nam laborum a
+                aperiam vero obcaecati numquam, adipisci tenetur maxime dignissimos nulla sequi veritatis soluta,
+                assumenda eius placeat perspiciatis.</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+<!-- Réalisé par PEAN Adrien -->
+</html>

@@ -1,0 +1,725 @@
+html {
+    font: 16px "Arial", sans-serif;
+    overflow-x: hidden;
+}
+/* Navigation */
+.header {
+    background: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+#logoFlexOn {
+    width: 10%;
+    margin-left: 5px;
+}
+
+nav {
+    flex: 1 1 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+#btnpromo {
+    background-color: #DC3E25;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.btnnav {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+/* First Section */
+#firstSection {
+    text-align: center;
+    background-image: url("../images/FOND_SAFE_ON.jpg");
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#titreFormCard {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #DC3E25;
+}
+
+#textFirstSection {
+    color: #2E2E2E;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#titleFirstSection {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2E2E2E;
+    padding-top: 20px;
+}
+#by{
+    padding-bottom: -5%;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-form {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-form h2 {
+    margin-top: 0;
+}
+
+.card-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F63443;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-row input {
+    width: 48%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-row-double {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-row-double input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-row.checkbox-row {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+}
+#consent{
+    font-size: 10px;
+    text-align: left;
+    margin: 0;
+}
+/*Banner */
+.banner {
+    background: linear-gradient(90deg, #DC3E25,#F63443, #DB0566);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+    gap: 20px; /* Adds space between the columns */
+}
+
+.logobanner {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.logobanner img {
+    max-height: 60px;
+    width: auto;
+}
+
+.text {
+    display: flex;
+
+}
+
+.text p {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Second section*/
+.dual-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.section-item {
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.logoDualSection {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.titleDualSection {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #DC3E25;
+}
+
+.pBanner {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.btnDualSection {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border: 2px solid #DC3E25;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #DC3E25;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/*Section New*/
+/*Section Avec Texte sur Image*/
+#NewsSafeOn {
+    position: relative;
+}
+
+.image-containerNewsSafeOn {
+    position: relative;
+    display: inline-block;
+    z-index: 1; /* Assurez-vous que l'image a un z-index plus élevé que le texte */
+}
+
+.image-containerNewsSafeOn img {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    display: block;
+}
+
+.logoNewsSafeOn {
+    position: absolute;
+    top: 100px; /* Ajustez la position verticale selon vos besoins */
+    left: 100px; /* Ajustez la position horizontale selon vos besoins */
+    z-index: 2; /* Assurez-vous que le logo a un z-index plus élevé que le texte */
+}
+
+.textNewsSafeOn {
+    position: absolute;
+    top: 40%;
+    font-size: 24px;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Ajustez la largeur du conteneur de texte */
+    text-align: justify; /* Alignez le texte à gauche et à droite */
+    z-index: 3; /* Assurez-vous que le texte a le z-index le plus élevé */
+}
+
+.right-textNewsSafeOn {
+    float: right;
+    width: 70%; /* Ajustez la largeur de la colonne de texte de droite */
+}
+
+#nouveau{
+    width: 50%;
+}
+.titreListe{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.plus{
+    color: #DC3E25;
+    font-size: 36px
+}
+#hexa{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+/*Section Formulaire bas de page*/
+
+ #SectionForm{
+    background-color: #2E2E2E;
+    margin-top: -5px;
+ }
+#ContactForm {
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#formEnd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+#submitbutton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 154px;
+    background-color: #F63443;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.center{
+    margin: auto;
+}
+
+#titreListe{
+    text-align: left;
+    margin: 0;
+    color: #F63443;
+    font-weight: bold;
+    font-size: 24px
+}
+#textListe{
+    text-align: left; 
+    margin: 0;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.terms{
+    color: white;
+    font-size: 10px;
+}
+/*Footer*/
+footer {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne lorsque l'espace est insuffisant */
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex-basis: 100%; /* Par défaut, chaque section occupe 100% de la largeur */
+    text-align: left;
+    margin-bottom: 20px; /* Espace entre les sections */
+}
+
+.footer-section img {
+    max-width: 100px; /* Ajustez la taille de votre logo selon vos besoins */
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+#petiteLigne{
+    width: 50%;
+    align-items: baseline;
+}
+.picto{
+    width: 8%;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+
+
+/* Modal JS*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 4px solid #F63443;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+
+@media screen and (min-width: 768px) {
+    .footer-section {
+        flex-basis: auto; /* Sur les écrans plus grands, chaque section s'adapte à sa taille de contenu */
+    }
+}
+@media (max-width: 768px) {
+    #logoSafeOn{
+        width: 50%;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 10px 0;
+    }
+
+    .logo-container {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #logoFlexOn {
+        width: 20%;
+    }
+    .card {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-image, .card-form {
+        flex: none;
+        width: 100%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-row input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .text p {
+        font-size: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .logobanner img {
+        justify-content: center;
+    align-items: center;
+        max-height: 50px;
+    }
+    .dual-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-item {
+        max-width: 90%;
+    }
+    #NewsSafeOn {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nouveau{
+        width: 10%;
+    }
+    #hexa{
+        position: absolute;
+        top: 150px;
+        width: 100%;
+    }
+    #logoSafe{
+        width: 30%;
+    }
+    #nouveau{
+        width: 5%;
+    }
+    .titreListe{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .image-containerNewsSafeOn,
+    .textNewsSafeOn {
+        width: 100%;
+    }
+    .logoNewsSafeOn {
+        position: absolute;
+        top: 10px; /* Ajustez la position verticale selon vos besoins */
+        left: 10px; /* Ajustez la position horizontale selon vos besoins */
+        z-index: 2; /* Assurez-vous que le logo a un z-index plus élevé que le texte */
+        width: 10%;
+    }
+    .plus{
+        color: #DC3E25;
+        font-size: 12px
+    }
+    .textNewsSafeOn {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Ajustez la largeur du conteneur de texte */
+    text-align: justify; /* Alignez le texte à gauche et à droite */
+    z-index: 3; /* Assurez-vous que le texte a le z-index le plus élevé */
+}
+.textNewsSafeOn p{
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media (max-width: 480px) {
+    #titleFirstSection {
+        font-size: 36px;
+    }
+
+    #textFirstSection {
+        font-size: 24px;
+    }
+
+    #titreFormCard {
+        font-size: 24px;
+    }
+
+    .card-form button {
+        font-size: 14px;
+    }
+    .text p {
+        font-size: 18px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .logobanner img {
+        max-height: 40px;
+        justify-content: center;
+    align-items: center;
+    }
+    .titleDualSection {
+        font-size: 1.2em;
+    }
+
+    .btnDualSection {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    #NewsSafeOn {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nouveau{
+        width: 30%;
+    }
+    #hexa{
+        position: absolute;
+        top: 150px;
+        width: 100%;
+    }
+    #logoSafe{
+        width: 30%;
+    }
+    #nouveau{
+        width: 50%;
+    }
+    .titreListe{
+        margin: 0;
+        font-weight: bold;
+        padding: 0;
+        font-size: 8px;
+    }
+    .image-containerNewsSafeOn,
+    .textNewsSafeOn {
+        width: 100%;
+    }
+    .logoNewsSafeOn {
+        position: absolute;
+        top: 10px; /* Ajustez la position verticale selon vos besoins */
+        left: 10px; /* Ajustez la position horizontale selon vos besoins */
+        z-index: 2; /* Assurez-vous que le logo a un z-index plus élevé que le texte */
+        width: 10%;
+    }
+    .plus{
+        color: #DC3E25;
+        font-size: 12px
+    }
+    .textNewsSafeOn {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Ajustez la largeur du conteneur de texte */
+    text-align: justify; /* Alignez le texte à gauche et à droite */
+    z-index: 3; /* Assurez-vous que le texte a le z-index le plus élevé */
+}
+.textNewsSafeOn p{
+    margin: 0;
+    padding: 0;
+}
+}
